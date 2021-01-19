@@ -2,7 +2,7 @@ import React from "react";
 import Searchbox from "./Searchbox";
 import Sidebar from "./Sidebar";
 import GridLayout from "./GridLayout";
-import {Link} from "react-router-dom";
+
 
 
 function DashbordGridLayout(){
@@ -14,7 +14,7 @@ function DashbordGridLayout(){
       <div className="mainContainer">
         <div className="mainSubContainer">
           <div className="mainSubContainer-Header">
-            <img src="images/logo-dark.svg" alt="logo" width="218px" height="60px" />
+            <img src="images/logo-dark.svg" alt="logo" width="179.08px" height="50px" />
             <div className="headerSearch">
             <Searchbox/>
             </div>
@@ -28,8 +28,8 @@ function DashbordGridLayout(){
           </div>
 
           <div className="Content-Icon">
-          <Link to ="DashbordGridLayout"><img src="images/CATEGORIES 2.svg" alt="list"/></Link>
-          <Link to ="DashbordTabelLayout"><img src="images/list 8.svg" alt="CATEGORIES2"/></Link>
+          <img src="images/CATEGORIES 2.svg" alt="list"/>
+        <img src="images/list 8.svg" alt="CATEGORIES2"/>
 
 
           </div>
